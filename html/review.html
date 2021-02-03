@@ -40,7 +40,7 @@
 
             <div class="row">
                 <div class="col-12 col-md-8 offset-md-2">
-                    <form>
+                    <form name="feedback form">
                         <div class="form-group">
                             <label for="name">
                                 <span class="form-text">Name:</span>
@@ -48,11 +48,23 @@
                             <input type="text" class="form-control" id="name" placeholder="Enter Your Name">
                         </div>
 
+                        <div class="alert-message" id="form-validation-name">
+                            <h6>* Please enter your name</h6>
+                        </div>
+
                         <div class="form-group">
                             <label for="email">
                                 <span class="form-text">Email id:</span>
                             </label>
                             <input type="email" class="form-control" id="email" placeholder="Enter Your Email id">
+                        </div>
+
+                        <div class="alert-message" id="form-validation-email">
+                            <h6>* Please enter your email id</h6>
+                        </div>
+
+                        <div class="alert-message" id="form-verify-email">
+                            <h6>* Please enter a valid email id</h6>
                         </div>
 
                         <div class="section">
@@ -279,7 +291,7 @@
                         </div>
 
                         <div class="form-group" id="button">
-                            <button type="submit" id="submit" class="submit-button" title="Submit Your Feedback">Submit</button>
+                            <button type="submit" id="submit" class="submit-button" title="Submit Your Feedback" onclick="return validateForm()">Submit</button>
                         </div>
                     </form>
                 </div>
@@ -329,5 +341,6 @@
         <script src="../bootstrap/jquery.slim.min.js"></script>
         <script src="../bootstrap/popper.min.js"></script>
         <script src="../bootstrap/bootstrap.min.js"></script>
+        <script src="../javascript/script.js"></script>
     </body>
 </html>

@@ -36,6 +36,12 @@ nav{
     background-color: #779ECB;
 }
 
+.alert-message{
+    color: #FF2014;
+    font-size: smaller;
+    margin-bottom: 0px;
+}
+
 .fa-bars{
     color: white;
 }
@@ -141,6 +147,18 @@ nav{
     font-style: italic;
     margin-bottom: 20px;
     margin-top: 5px;
+}
+
+#form-validation-name{
+    display: none;
+}
+
+#form-validation-email{
+    display: none;
+}
+
+#form-verify-email{
+    display: none;
 }
 
 #main-text{
