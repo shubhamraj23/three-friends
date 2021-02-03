@@ -103,15 +103,17 @@ nav{
 }
 
 .submit-button{
-    background-color: #AEC6CF;
+    background-color: #77DD77;
     border-radius: 10px;
+    color: white;
     cursor: pointer;
     display: block;
-    margin-top: 15px;
-    width: 60%;
-    text-align: center;
+    font-weight: bold;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 15px;
+    text-align: center;
+    width: 60%;
 }
 
 .subtitle-text{
