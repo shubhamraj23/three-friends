@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Required Meta Tags For Responsiveness -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <!-- Linking the required stylesheets-->
+        <link rel="stylesheet" type="text/css" href="../bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        
+        <title>Leave a Review</title>
+    </head>
+
+    <body>
+        <nav class="navbar fixed-top navbar-expand-sm">
+            <div class="container mx-0">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="Navbar">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item pl-2 pl-sm-0"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item pl-2 pl-sm-0"><a class="nav-link" href="chapter1.html">Chapter 1</a></li>
+                        <li class="nav-item pl-2 pl-sm-0"><a class="nav-link" href="chapter2.html">Chapter 2</a></li>
+                        <li class="nav-item pl-2 pl-sm-0"><a class="nav-link" href="chapter3.html">Chapter 3</a></li>
+                        <li class="nav-item active pl-2 pl-sm-0"><a class="nav-link" href="#" id="active-link">Leave a Review</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="form-heading">
+                <h2 class="title-text">Leave a Review Below</h2>
+                <h5 class="subtitile-text" id="form-subtitle">Thank you for your valuable feedback!</h5>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-8 offset-md-2">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">
+                                <span class="form-text">Name:</span>
+                            </label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter Your Name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">
+                                <span class="form-text">Email id:</span>
+                            </label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter Your Email id">
+                        </div>
+
+                        <div class="section">
+                            <h4>Feedback About Story</h4>
+                        </div>
+
+                        <div class="form-group">
+                            <label>
+                                <span class="form-text">How would you rate the plot of the story?</span>
+                            </label>
+                            <div class="form-radio-button">
+                                <label for="Absolutely Amazing">
+                                    <input id="Absolutely Amazing" type="radio" name="plot-review">
+                                    <span class="radio-text"> Absolutely Amazing</span>
+                                </label>
+                            </div>
+                            <div class="form-radio-button">
+                                <label for="Very Good">
+                                    <input id="Very Good" type="radio" name="plot-review">
+                                    <span class="radio-text"> Very Good</span>
+                                </label>
+                            </div>
+                            <div class="form-radio-button">
+                                <label for="Good but could have been better">
+                                    <input id="Good but could have been better" type="radio" name="plot-review">
+                                    <span class="radio-text"> Good but could have been better</span>
+                                </label>
+                            </div>
+                            <div class="form-radio-button">
+                                <label for="Needs Improvement">
+                                    <input id="Needs Improvement" type="radio" name="plot-review">
+                                    <span class="radio-text"> Needs Improvement</span>
+                                </label>
+                            </div>
+                            <div class="form-radio-button">
+                                <label for="Terrible">
+                                    <input id="Terrible" type="radio" name="plot-review">
+                                    <span class="radio-text"> Terrible</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>
+                                <span class="form-text">How would you rate the description and the choice of words used?</span>
+                            </label>
+                            <div class="form-radio-button">
+                                <label for="Absolutely Amazing">
+                                    <input id="Absolutely Amazing" type="radio" name="description-review">
+                                    <span class="radio-text"> Absolutely Amazing</span>
+                                </label>
+                            </div>
+                            <div class="form-radio-button">
+                                <label for="Very Good">
+                                    <input id="Very Good" type="radio" name="description-review">
+                                    <span class="radio-text"> Very Good</span>
+                                </label>
+                            </div>
+                            <div class="form-radio-button">
+                                <label for="Good but could have been better">
+                                    <input id="Good but could have been better" type="radio" name="description-review">
+                                    <span class="radio-text"> Good but could have been better</span>
+                                </label>
+                            </div>
+                            <div class="form-radio-button">
+                                <label for="Needs Improvement">
+                                    <input id="Needs Improvement" type="radio" name="description-review">
+                                    <span class="radio-text"> Needs Improvement</span>
+                                </label>
+                            </div>
+                            <div class="form-radio-button">
+                                <label for="Terrible">
+                                    <input id="Terrible" type="radio" name="description-review">
+                                    <span class="radio-text"> Terrible</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>
+                                <span class="form-text">How would you rate the overall story?</span>
+                            </label>
+                            <div class="form-radio-button">
+                                <label for="Absolutely Amazing">
+                                    <input id="Absolutely Amazing" type="radio" name="story-review">
+                                    <span class="radio-text"> Absolutely Amazing</span>
+                                </label>
+                            </div>
+                            <div class="form-radio-button">
+                                <label for="Very Good">
+                                    <input id="Very Good" type="radio" name="story-review">
+                                    <span class="radio-text"> Very Good</span>
+                                </label>
+                            </div>
+                            <div class="form-radio-button">
+                                <label for="Good but could have been better">
+                                    <input id="Good but could have been better" type="radio" name="story-review">
+                                    <span class="radio-text"> Good but could have been better</span>
+                                </label>
+                            </div>
+                            <div class="form-radio-button">
+                                <label for="Needs Improvement">
+                                    <input id="Needs Improvement" type="radio" name="story-review">
+                                    <span class="radio-text"> Needs Improvement</span>
+                                </label>
+                            </div>
+                            <div class="form-radio-button">
+                                <label for="Terrible">
+                                    <input id="Terrible" type="radio" name="story-review">
+                                    <span class="radio-text"> Terrible</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="section">
+                            <h4>Feedback About Website</h4>
+                        </div>
+
+                        <div class="form-group">
+                            <label>
+                                <span class="form-text">How would you rate the design of the website?</span>
+                            </label>
+                            <div class="form-radio-button">
+                                <label for="Absolutely Amazing">
+                                    <input id="Absolutely Amazing" type="radio" name="design-review">
+                                    <span class="radio-text"> Absolutely Amazing</span>
+                                </label>
+                            </div>
+                            <div class="form-radio-button">
+                                <label for="Very Good">
+                                    <input id="Very Good" type="radio" name="design-review">
+                                    <span class="radio-text"> Very Good</span>
+                                </label>
+                            </div>
+                            <div class="form-radio-button">
+                                <label for="Good but could have been better">
+                                    <input id="Good but could have been better" type="radio" name="design-review">
+                                    <span class="radio-text"> Good but could have been better</span>
+                                </label>
+                            </div>
+                            <div class="form-radio-button">
+                                <label for="Needs Improvement">
+                                    <input id="Needs Improvement" type="radio" name="design-review">
+                                    <span class="radio-text"> Needs Improvement</span>
+                                </label>
+                            </div>
+                            <div class="form-radio-button">
+                                <label for="Terrible">
+                                    <input id="Terrible" type="radio" name="design-review">
+                                    <span class="radio-text"> Terrible</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>
+                                <span class="form-text">How would you rate the ease of navigation through the website?</span>
+                            </label>
+                            <div class="form-radio-button">
+                                <label for="Easy to Navigate">
+                                    <input id="Easy to Navigate" type="radio" name="ease-review">
+                                    <span class="radio-text"> Easy to Navigate</span>
+                                </label>
+                            </div>
+                            <div class="form-radio-button">
+                                <label for="Easy but could have been better">
+                                    <input id="Easy but could have been better" type="radio" name="ease-review">
+                                    <span class="radio-text"> Easy but could have been better</span>
+                                </label>
+                            </div>
+                            <div class="form-radio-button">
+                                <label for="Very Difficult to Navigate">
+                                    <input id="Very Difficult to Navigate" type="radio" name="ease-review">
+                                    <span class="radio-text"> Very Difficult to Navigate</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>
+                                <span class="form-text">How would you describe your overall satisfaction with the website?</span>
+                            </label>
+                            <div class="form-radio-button">
+                                <label for="Highly Satisfied">
+                                    <input id="Highly Satisfied" type="radio" name="overall-review">
+                                    <span class="radio-text"> Highly Satisfied</span>
+                                </label>
+                            </div>
+                            <div class="form-radio-button">
+                                <label for="Moderately Satisfied">
+                                    <input id="Moderately Satisfied" type="radio" name="overall-review">
+                                    <span class="radio-text"> Moderately Satisfied</span>
+                                </label>
+                            </div>
+                            <div class="form-radio-button">
+                                <label for="Good but could have been better">
+                                    <input id="Good but could have been better" type="radio" name="overall-review">
+                                    <span class="radio-text"> Good but could have been better</span>
+                                </label>
+                            </div>
+                            <div class="form-radio-button">
+                                <label for="Poor">
+                                    <input id="Poor" type="radio" name="overall-review">
+                                    <span class="radio-text"> Poor</span>
+                                </label>
+                            </div>
+                            <div class="form-radio-button">
+                                <label for="Horrible">
+                                    <input id="Horrible" type="radio" name="overall-review">
+                                    <span class="radio-text"> Horrible</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="section">
+                            <h4>Suggestions</h4>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">
+                                <span class="form-text">Any comments or suggestions</span>
+                            </label>
+                            <textarea class="form-control" name="comments" id="comments" rows="4" placeholder="Enter Your Suggestions here..."></textarea>
+                        </div>
+
+                        <div class="form-group" id="button">
+                            <button type="submit" id="submit" class="submit-button" title="Submit Your Feedback">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="footer mt-0 mt-lg-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-md-4">
+                        <h5 class="footer-heading">Chapter Links</h5>
+                        <ul class="footer-bullets">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="chapter1.html">Chapter 1</a></li>
+                            <li><a href="chapter2.html">Chapter 2</a></li>
+                            <li><a href="chapter3.html">Chapter 3</a></li>
+                        </ul>    
+                    </div>
+
+                    <div class="col-6 col-md-4">
+                        <h5 class="footer-heading">Contact</h5>
+                        <h6 id="main-text">
+                            Room No. D-121 <br>
+                            RK Hall of Residence <br>
+                            IIT Kharagpur <br>
+                        </h6>  
+                    </div>
+
+                    <div class="col-md-4 d-none d-md-block">
+                        <h5 class="footer-heading">Other Readings</h5>
+                        <h6 id="main-text">
+                            Stay tuned to hear about more readings
+                        </h6>  
+                    </div>
+
+                    <div class="col-12 d-md-none">
+                        <h5 class="footer-heading" id="other-heading">Other Readings</h5>
+                        <h6 id="other-text">
+                            Stay tuned to hear about more readings
+                        </h6> 
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+        <script src="../bootstrap/jquery.slim.min.js"></script>
+        <script src="../bootstrap/popper.min.js"></script>
+        <script src="../bootstrap/bootstrap.min.js"></script>
+    </body>
+</html>
