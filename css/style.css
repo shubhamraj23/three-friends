@@ -5,15 +5,31 @@ body{
 
 img{
     display: block;
-    max-width: 100%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    max-width: 100%;
+}
+
+input{
+    max-width: 100%;
+}
+
+form{
+    background-color: #779ECB;
+    border-radius: 25px;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+label{
+    margin-bottom: 0px;
 }
 
 nav{
     background-color: #AEC6CF;
-    top: 0;
 }
 
 .active{
@@ -29,15 +45,39 @@ nav{
 }
 
 .footer-bullets{
-    list-style-type: none;
     list-style-position: outside;
+    list-style-type: none;
     padding-left: 0px;
 }
 
 .footer-heading{
     font-weight: bold;
-    text-align: left;
     margin-top: 5px;
+    text-align: left;
+}
+
+.form-control{
+    background-color: #ADD8E6;
+}
+
+.form-heading{
+    padding-top: 15px;
+    text-align: center;
+}
+
+.form-group{
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+
+.form-radio-button{
+    padding-left: 5%;
+}
+
+.form-text{
+    color: white;
+    font-size: large;
+    font-weight: bold;
 }
 
 .nav-link{
@@ -48,15 +88,56 @@ nav{
     color: #779ECB;
 }
 
+.radio-text{
+    color: white;
+}
+
+.section{
+    background-color: #AEC6CF;
+    border-radius: 10px;
+    color: white;
+    margin-top: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.submit-button{
+    background-color: #AEC6CF;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    margin-top: 15px;
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .subtitle-text{
     font-weight: normal;
-    text-align: center;
     margin-bottom: 16px;
+    text-align: center;
 }
 
 .title-text{
-    text-align: center;
     margin-bottom: 0px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#active-link:hover{
+    color: white;
+}
+
+#button{
+    display: block;
+    align-items: center;
+}
+
+#form-subtitle{
+    font-style: italic;
+    margin-bottom: 20px;
     margin-top: 5px;
 }
 
@@ -66,19 +147,15 @@ nav{
     text-justify: inter-word;
 }
 
-#active-link:hover{
-    color: white;
-}
-
 #other-heading{
-    text-align: center;
     margin-top: 0px;
+    text-align: center;
 }
 
 #other-text{
-    text-align: center;
-    margin-top: 0px;
     font-weight: normal;
+    margin-top: 0px;
+    text-align: center;
 }
 
 #top-text{
