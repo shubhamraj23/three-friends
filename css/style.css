@@ -34,6 +34,7 @@ nav{
 
 .active{
     background-color: #779ECB;
+    border-radius: 5px;
 }
 
 .alert-message{
@@ -147,6 +148,12 @@ nav{
     font-style: italic;
     margin-bottom: 20px;
     margin-top: 5px;
+}
+
+#form-validate{
+    display: none;
+    margin-top: 5px;
+    text-align: center;
 }
 
 #form-validation-name{
