@@ -1,0 +1,190 @@
+body{
+    background-color: #EEECF1;
+    margin-top: 50px;
+}
+
+img{
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+input{
+    max-width: 100%;
+}
+
+form{
+    background-color: #779ECB;
+    border-radius: 25px;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+label{
+    margin-bottom: 0px;
+}
+
+nav{
+    background-color: #AEC6CF;
+}
+
+.active{
+    background-color: #779ECB;
+    border-radius: 5px;
+}
+
+.alert-message{
+    color: #FF2014;
+    font-size: smaller;
+    margin-bottom: 0px;
+}
+
+.fa-bars{
+    color: white;
+}
+
+.footer{
+    background-color: #AEC6CF;
+}
+
+.footer-bullets{
+    list-style-position: outside;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.footer-heading{
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.form-control{
+    background-color: #ADD8E6;
+}
+
+.form-heading{
+    padding-top: 15px;
+    text-align: center;
+}
+
+.form-group{
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+
+.form-radio-button{
+    padding-left: 5%;
+}
+
+.form-text{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: #779ECB;
+}
+
+.radio-text{
+    color: white;
+}
+
+.section{
+    background-color: #AEC6CF;
+    border-radius: 10px;
+    color: white;
+    margin-top: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.submit-button{
+    background-color: #77DD77;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    text-align: center;
+    width: 60%;
+}
+
+.subtitle-text{
+    font-weight: normal;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.title-text{
+    margin-bottom: 0px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#active-link:hover{
+    color: white;
+}
+
+#button{
+    display: block;
+    align-items: center;
+}
+
+#form-subtitle{
+    font-style: italic;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+#form-validate{
+    display: none;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#form-validation-name{
+    display: none;
+}
+
+#form-validation-email{
+    display: none;
+}
+
+#form-verify-email{
+    display: none;
+}
+
+#main-text{
+    font-weight: normal;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#other-heading{
+    margin-top: 0px;
+    text-align: center;
+}
+
+#other-text{
+    font-weight: normal;
+    margin-top: 0px;
+    text-align: center;
+}
+
+#top-text{
+    margin-top: 20px;
+}
